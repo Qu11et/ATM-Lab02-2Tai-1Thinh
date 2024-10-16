@@ -8,14 +8,13 @@ import java.security.PublicKey;
 import java.security.spec.RSAPrivateKeySpec;
 import java.security.spec.RSAPublicKeySpec;
 import javax.crypto.Cipher;
-import java.sql.SQLOutput;
 import java.util.Base64;
 import java.util.Scanner;
 import java.security.SecureRandom;
 
 public class SimpleRSA {
 
-    public static void main(String[] args) throws Exception {
+    public static void main() throws Exception {
         System.out.println("Simple RSA Encryption");
         System.out.println("*********************");
         System.out.println("This is the message to be encrypted: Hello RSA!");
