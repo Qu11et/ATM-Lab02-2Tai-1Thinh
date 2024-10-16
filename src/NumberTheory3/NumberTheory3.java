@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 public class NumberTheory3 {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner scan = new Scanner(System.in);
 
         // Input base

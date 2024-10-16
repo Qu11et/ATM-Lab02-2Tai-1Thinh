@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class NumberTheory2
 {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner scan = new Scanner(System.in);
 
         // Input first large integer

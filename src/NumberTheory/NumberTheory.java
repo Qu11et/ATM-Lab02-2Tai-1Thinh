@@ -136,7 +136,7 @@ public class NumberTheory
         ArrayList<Long> result = new ArrayList<Long>();
         if (!Is_Mersenne(Mersenne_number) || !Is_Prime(Mersenne_number))
         {
-            System.out.print("That is not a Mersenne prime number");
+            System.out.print("That is not a Mersenne prime number\n");
             return ;
         }
         for(long i = Mersenne_number-1; i>1; i --)
@@ -179,7 +179,7 @@ public class NumberTheory
 
 
 
-    public static void main(String[] args) {
+    public static void main() {
         Init();
         //Generate prime
         long prime = Generate();
